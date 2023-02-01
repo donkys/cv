@@ -1,0 +1,87 @@
+.body {
+    font-family: 'Kanit', 'sans-serif';
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Sarabun', 'sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Sarabun', 'sans-serif';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#title {
+    background-color: #FCE22A;
+    color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    /* padding: 0 0 0; */
+}
+
+.navbar-brand {
+    font-family: 'Sarabun';
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.navbar-img {
+    width: 70px;
+}
+
+.nav-item {
+    padding: 10px 10px 0;
+}
+
+.nav-link {
+    
+    font-size: 1.5rem;
+    font-family: 'Sarabun';
+
+}
+
+.nav-font {
+    color: black;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+.hover-font {
+    color: #D61355;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.hover-font:hover {
+    color: white;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+/* Dowload Botton */
+
+.download-botton {
+    color: #D61355 !important;
+    border: 3px solid #D61355;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.download-botton:hover {
+    color: white !important;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
