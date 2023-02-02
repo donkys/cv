@@ -34,6 +34,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="css/styles.css">
 
+    <script language="javascript">
+        document.onmousedown = disableclick;
+        status = "Right Click Disabled";
+        function disableclick(e) {
+            if (event.button == 2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+
 </head>
 
 <body oncontextmenu="return false">
