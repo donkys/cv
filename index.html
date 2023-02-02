@@ -34,17 +34,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="css/styles.css">
 
-    <script language="javascript">
-        document.onmousedown = disableclick;
-        status = "Right Click Disabled";
-        function disableclick(e) {
-            if (event.button == 2) {
-                alert(status);
-                return false;
-            }
-        }
-    </script>
-
 </head>
 
 <body oncontextmenu="return false">
@@ -100,7 +89,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="./Sort.pdf">
-                                <button type="button" style="margin-top: 0;"
+                                <button type="button" style="margin-top: 0; float: right; "
                                     class="download-botton btn btn-outline-danger btn-lg">
                                     Resume
                                 </button>
