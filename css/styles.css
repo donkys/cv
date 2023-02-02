@@ -55,8 +55,8 @@ h2 {
 }
 
 .nav-link:hover {
-    text-decoration: underline solid #20262E 5px;
-
+    transform: translate(0px, -5px);
+    text-decoration: underline solid #35393d 4px;
 }
 
 .nav-font {
@@ -73,8 +73,9 @@ h2 {
 
 .hover-font:hover {
     color: white;
-    font-weight: 500;
+    font-weight: 900;
     font-family: 'Kanit';
+    
 }
 
 .navbar-dark .navbar-toggler {
